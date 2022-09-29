@@ -6,6 +6,7 @@
     <?php include ('menu.php'); ?>
     
     <form action="recebeFornecedor.php" method="POST">
+    <div class="container">
 
     <h2>Fornecedor</h2>
 </head>
@@ -20,9 +21,10 @@
             <p>Endereço: </label><br><input type="text" name="endereço"></p>
             <p>Material: </label><br><input type="text" name="material"></p>
             <p>Observação: </label><br><input type="text" name="comentarios"></p>
-         <p> <input type="submit" value="Enviar" name="enviar"> <input type="reset" value="Limpar" name="limpar"></p>
-
-        </p>
+            <div class="form-group">
+        <input class="btn btn-secondary" type="reset" value="Limpar">
+        <input class="btn btn-primary" type="submit" value="Cadastrar">
+    </div>
     </form>
 </body>
 
