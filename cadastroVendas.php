@@ -23,34 +23,53 @@
             <?php } ?>
             </select></p>
 
-            <p>Cliente: </label><br>
-                <select name="cliente">
-                    <option>Selecione</option>
-                    <?php
-                    $sql = "SELECT * FROM cliente";
-                    $rs = mysqli_query($conn, $sql);
-                    while ($linha = mysqli_fetch_array($rs)) {
-                    ?>
-                        <option value="<?php echo $linha['id'] ?>"><?php echo $linha['nome'] ?></option>
-                    <?php } ?>
-                </select>
+            <div class="form-group">
+                <label>Cliente: </label>
+                <select class="form-control" name="cliente">
+            </div>
+            <option>Selecione</option>
+            <?php
+            $sql = "SELECT * FROM cliente";
+            $rs = mysqli_query($conn, $sql);
+            while ($linha = mysqli_fetch_array($rs)) {
+            ?>
+                <option value="<?php echo $linha['id'] ?>"><?php echo $linha['nome'] ?></option>
+            <?php } ?>
+            </select>
             </p>
-            <div class="form-group">
-                <label>Hora:</label>
-                <input class="form-control" type="time" name="hora">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        Hora:
+                        <input class="form-control" type="time" name="hora">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+
+                        Data:
+                        <input class="form-control" type="date" name="data">
+                    </div>
+                </div>
+            </div>
+
+             <div class="form-group">
+                Valor:
+                <input class="form-control" type="text" name="valor">
             </div>
             <div class="form-group">
-                <label>Data: </label>
-                <input class="form-control" type="date" name="data">
+                Quantidade:
+                <input class="form-control" type="number" name="quantidade">
             </div>
-            <p>Valor: </label><br><input type="text" name="valor"></p>
-            <p>Quantidade: </label><br> <input type="number" name="quantidade"></p>
-            <p>Forma de Pagamento: </label><br> <input type="text" name="formadepagamento"></p>
             <div class="form-group">
-                <input class="btn btn-secondary" type="reset" value="Limpar">
-                <input class="btn btn-primary" type="submit" value="Cadastrar">
+                Forma de pagamento:
+                <input class="form-control" type="text" name="formadepagamento">
             </div>
-        </form>
+    <div class="form-group">
+        <input class="btn btn-secondary" type="reset" value="Limpar">
+        <input class="btn btn-primary" type="submit" value="Cadastrar">
+    </div>
+    </form>
     </div>
 </body>
 

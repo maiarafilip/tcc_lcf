@@ -1,11 +1,12 @@
+
 <?php
 
 include('conexao.php');
 
-$cod = $_GET['coduser'];
+$cod = $_GET['id'];
 
-$sql = "DELETE FROM cliente WHERE coduser=$cod";
-
+$sql = "DELETE FROM cliente WHERE id=$cod";
+echo $sql;
 mysqli_query($conn, $sql);
 if (mysqli_affected_rows($conn) > 0) {
     header("Location: listaCliente.php");
@@ -14,4 +15,3 @@ if (mysqli_affected_rows($conn) > 0) {
     mysqli_error($conn);
     echo $conn->error;
 }
-

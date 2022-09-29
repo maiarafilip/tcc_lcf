@@ -15,7 +15,10 @@
             <p>Indicações: </label><br><input type="text" name="indicações"></p>
             <p>Observações: </label><br> <input type="text" name="observacao"></p>
            
-        <input type="submit" value="Cadastrar">
+            <div class="form-group">
+        <input class="btn btn-secondary" type="reset" value="Limpar">
+        <input class="btn btn-primary" type="submit" value="Cadastrar">
+    </div>
     </form>
 </body>
 </html>

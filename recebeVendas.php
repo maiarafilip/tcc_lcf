@@ -14,4 +14,4 @@ $sql = "INSERT INTO vendas (produto, cliente, hora, data, valor, quantidade, for
 mysqli_query($conn, $sql);
 
 mysqli_close($conn);
-echo "Venda cadastrada com sucesso.";
+header('Location: ./index.php');

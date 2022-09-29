@@ -38,9 +38,17 @@
                 <td><?php echo $linha['quantidade'] ?></td>
                 <td><?php echo $linha['formadepagamento'] ?></td>
                 <td><a href="" class="btn btn-secondary">Editar</a>
-                    <a href="#" class="btn btn-danger">Excluir</a>
+                <a href="#" onclick='confirmar("<?php echo $linha[0] ?>") ' class="btn btn-danger">Excluir</a>
+
+
                 </td>
             </tr>
+            <script>
+                        function confirmar(cod) {
+                            if (confirm('Você realmente deseja excluir essa linha?'))
+                                location.href = 'excluiVendas.php?id=' + cod;
+                        }
+                    </script>
             <?php } ?>
         </tbody>
 

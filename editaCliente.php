@@ -10,11 +10,11 @@ if (isset($_POST['btnSalvar'])) {
     $emailuser = $_POST['email'];
     $foneuser = $_POST['fone'];
 
-    $sql = "UPDATE users SET 
+    $sql = "UPDATE cliente SET 
                 nome='$nomeuser', 
                 email='$emailuser', 
                 fone='$foneuser' 
-            WHERE coduser='$coduser'";
+            WHERE coduser='$id'";
 
     mysqli_query($conn, $sql);
     echo "<script> alert('Usuário alterado com sucesso') </script>";

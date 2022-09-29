@@ -41,9 +41,16 @@
 
 
                 <td><a href="editaCliente.php?codCliente=<?php echo $linha[0]?>" class="btn btn-secondary">Editar</a>
-                    <a href="excluiCLiente.phpx" class="btn btn-danger">Excluir</a>
+                <a href="#" onclick='confirmar("<?php echo $linha[0] ?>") ' class="btn btn-danger">Excluir</a>
+
                 </td>
             </tr>
+            <script>
+                        function confirmar(cod) {
+                            if (confirm('Você realmente deseja excluir essa linha?'))
+                                location.href = 'excluiCliente.php?id=' + cod;
+                        }
+                    </script>
             <?php } ?>
         </tbody>
     </table>
