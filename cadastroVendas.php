@@ -13,10 +13,6 @@
             <h2>Cadastro das Vendas</h2>
             <div class="form-group">
 
-            <div class="container">
-            <h2>hdcejnfcen</h2>
-            <div class="form-group">
-                
                 <label>Produto: </label>
                 <select class="form-control" name="produto">
             </div>

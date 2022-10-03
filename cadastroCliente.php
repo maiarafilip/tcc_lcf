@@ -9,10 +9,6 @@
         <h2>Cadastro de Cliente</h2>
 
         <div class="container">
-            <h2>hdcejnfcen</h2>
-            <div class="form-group">
-
-        <div class="container">
             <div class="row">
                 <div class="col-sm-4">
                     <div class="form-group">
@@ -37,8 +33,8 @@
             </div>
         </div>
         <p><input type="checkbox" name="sem" checked /> Marque aqui se <i>não</i> possuir email. </p>
-        
-            <h2>Endereço do Cliente</h2>
+
+        <h2>Endereço do Cliente</h2>
         <form action="dados_endereco.html" method="POST">
             <div class="form-group">
                 Rua:
