@@ -9,6 +9,10 @@
             <h2>Cadastro Fornecimento</h2>
         </div>
 
+        <div class="container">
+            <h2>hdcejnfcen</h2>
+            <div class="form-group">
+
             <p>Fornecedor: </label><br> <input type="text" name="fornecedor"></p>
             <p>Materia prima: </label><br><input type="text" name="materiaprima"></p>
             <div class="row">

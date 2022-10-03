@@ -8,6 +8,9 @@
     <form action="recebeCliente.php" method="POST">
         <h2>Cadastro de Cliente</h2>
 
+        <div class="container">
+            <h2>hdcejnfcen</h2>
+            <div class="form-group">
 
         <div class="container">
             <div class="row">
