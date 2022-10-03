@@ -4,13 +4,31 @@
     <?php include ('menu.php'); ?>
     
     <form action="recebeFornecimento.php" method="POST">
-        <h2>Cadastro do Fornecimento</h2>
+        
+    <div class="container">
+            <h2>Cadastro Fornecimento</h2>
+        </div>
 
             <p>Fornecedor: </label><br> <input type="text" name="fornecedor"></p>
             <p>Materia prima: </label><br><input type="text" name="materiaprima"></p>
-            <p>Hora: </label><br> <input type="time" name="hora"></p>
-            <p>Data: </label><br><input type="date" name="data"></p>
-            <p>Valor: </label><br> <input type="number_format " name="valor"></p>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        Hora:
+                        <input class="form-control" type="time" name="hora">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        Data:
+                        <input class="form-control" type="date" name="data">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                Valor:
+                <input class="form-control" type="text" name="valor">
+            </div>
         
            
             <div class="form-group">

@@ -6,10 +6,13 @@
     <?php include('menu.php');
     include('conexao.php');
     ?>
-    <div class="container">
+
         <form action="recebeVendas.php" method="POST">
+
+        <div class="container">
             <h2>Cadastro das Vendas</h2>
             <div class="form-group">
+                
                 <label>Produto: </label>
                 <select class="form-control" name="produto">
             </div>
@@ -46,14 +49,13 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-
                         Data:
                         <input class="form-control" type="date" name="data">
                     </div>
                 </div>
             </div>
 
-             <div class="form-group">
+            <div class="form-group">
                 Valor:
                 <input class="form-control" type="text" name="valor">
             </div>
@@ -65,11 +67,11 @@
                 Forma de pagamento:
                 <input class="form-control" type="text" name="formadepagamento">
             </div>
-    <div class="form-group">
-        <input class="btn btn-secondary" type="reset" value="Limpar">
-        <input class="btn btn-primary" type="submit" value="Cadastrar">
-    </div>
-    </form>
+            <div class="form-group">
+                <input class="btn btn-secondary" type="reset" value="Limpar">
+                <input class="btn btn-primary" type="submit" value="Cadastrar">
+            </div>
+        </form>
     </div>
 </body>
 

@@ -34,51 +34,52 @@
             </div>
         </div>
         <p><input type="checkbox" name="sem" checked /> Marque aqui se <i>não</i> possuir email. </p>
-        <h3>Cadastre o endereço do cliente</h3>
+        
+            <h2>Endereço do Cliente</h2>
         <form action="dados_endereco.html" method="POST">
-                <div class="form-group">
-               Rua:
+            <div class="form-group">
+                Rua:
                 <input class="form-control" type="text" name="rua">
             </div>
             <form action="dados_endereco.html" method="POST">
                 <div class="form-group">
-               Bairro:
-                <input class="form-control" type="text" name="bairro">
-            </div>
-            <div class="form-group">
-              Cidade:
-                <input class="form-control" type="text" name="cidade">
-            </div>
-            <div class="form-group">
-              CEP:
-                <input class="form-control" type="text" name="cep">
-            </div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="form-group">
-                       Uf:
-                        <select input class="form-control" type="text" name="uf"> 
-                <option value="0">Selecione</option>
-                <option value="SC">SC</option>
-                <option value="RS">RS</option>
-                <option value="PR">PR</option>
-                <option value="outra">Outra</option>
-            </select>
-                    </div>
+                    Bairro:
+                    <input class="form-control" type="text" name="bairro">
                 </div>
-           
-                <div class="col-sm-6">
-                    <div class="form-group">
+                <div class="form-group">
+                    Cidade:
+                    <input class="form-control" type="text" name="cidade">
+                </div>
+                <div class="form-group">
+                    CEP:
+                    <input class="form-control" type="text" name="cep">
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            Uf:
+                            <select input class="form-control" type="text" name="uf">
+                                <option value="0">Selecione</option>
+                                <option value="SC">SC</option>
+                                <option value="RS">RS</option>
+                                <option value="PR">PR</option>
+                                <option value="outra">Outra</option>
+                            </select>
+                        </div>
+                    </div>
 
-                        Outra:
-                        <input class="form-control" type="text" name="outra">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+
+                            Outra:
+                            <input class="form-control" type="text" name="outra">
+                        </div>
                     </div>
-                </div>
-            <div class="form-group">
-        <input class="btn btn-secondary" type="reset" value="Limpar">
-        <input class="btn btn-primary" type="submit" value="Cadastrar">
-    </div>
-        </form>
+                    <div class="form-group">
+                        <input class="btn btn-secondary" type="reset" value="Limpar">
+                        <input class="btn btn-primary" type="submit" value="Cadastrar">
+                    </div>
+            </form>
 </body>
 
 </html>

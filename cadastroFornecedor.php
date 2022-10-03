@@ -10,13 +10,14 @@
     <form action="recebeFornecedor.php" method="POST">
     <div class="container">
 
-    <h2>Fornecedor</h2>
+    <div class="container">
+            <h2>Cadastro de Fornecedor</h2>
+        </div>
 </head>
 
 <body>
     <form action="dados_fornecedor.html" method="POST">
-        <p>
-            <strong>Cadastro do fornecedor</strong>
+
             <div class="container">
             <div class="row">
                 <div class="col-sm-4">
@@ -57,7 +58,7 @@
                     </div>
                 </div>
             </div>
-            <h3>Cadastre o endereço do fornecedor</h3>
+            <h3>Endereço do fornecedor</h3>
         <form action="dados_endereco.html" method="POST">
                 <div class="form-group">
                Rua:
