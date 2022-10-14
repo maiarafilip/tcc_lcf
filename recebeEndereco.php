@@ -12,7 +12,9 @@ $sql = "INSERT INTO enedereco (rua, bairro, cidade, uf)
 VALUES ('$rua' '$bairro' '$cidade' '$uf' '$cep' )";
 mysqli_query($conn, $sql);
 
-
-
 mysqli_close($conn);
-echo "Cliente cadastrado com sucesso.";
+
+echo "<script>alert('Cadastrado com sucesso')</script>";
+header('Refresh: 1;url=index.php');
+
+?>

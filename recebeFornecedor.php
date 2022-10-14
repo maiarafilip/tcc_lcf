@@ -4,7 +4,7 @@ include("conexao.php"); // inclui o arquivo de conexão com BD
 $nomeuser = $_POST['nome'];
 $emailuser = $_POST['email'];
 $foneuser = $_POST['fone'];
-$endereço = $_POST['endereço'];
+$endereço = $_POST['endereco'];
 $material = $_POST['material'];
 $comentarios = $_POST['comentarios'];
 
@@ -15,4 +15,8 @@ mysqli_query($conn, $sql);
 
 
 mysqli_close($conn);
-echo "fornecedor cadastrado com sucesso.";
+
+echo "<script>alert('Cadastrado com sucesso')</script>";
+header('Refresh: 1;url=index.php');
+
+?>

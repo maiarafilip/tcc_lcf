@@ -11,4 +11,7 @@ $sql = "INSERT INTO fabricacao (produto, materiaprima, quantidade, data)
 mysqli_query($conn, $sql);
 
 mysqli_close($conn);
-echo "Fabricação cadastrada com sucesso.";
+echo "<script>alert('Cadastrado com sucesso')</script>";
+header('Refresh: 1;url=index.php');
+
+?>

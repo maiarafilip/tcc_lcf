@@ -16,4 +16,7 @@ $sql = "INSERT INTO produto (material, tamanho , categoria, preco, validade, fot
 mysqli_query($conn, $sql);
 
 mysqli_close($conn);
-echo "Produto cadastrado com sucesso.";
+echo "<script>alert('Cadastrado com sucesso')</script>";
+header('Refresh: 1;url=index.php');
+
+?>

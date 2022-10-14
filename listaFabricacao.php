@@ -1,10 +1,13 @@
 <html>
-<?php include('conexao.php'); ?>
 
-<head></head>
+<head>
+<?php include('conexao.php'); ?>
+<?php include('menu.php'); ?>
+
+<link href="Listagem.css" rel="stylesheet">
+</head>
 
 <body>
-    <?php include('menu.php'); ?>
 
     <div class="container">
 
@@ -32,9 +35,17 @@
                 <td><?php echo $linha['quantidade'] ?></td>
                 <td><?php echo $linha['data'] ?></td>
                 <td>Editar
-                    Excluir
+                <a href="#" onclick='confirmar("<?php echo $linha[0] ?>") ' class="btn btn-danger">Excluir</a>
                 </td>
             </tr>
+
+            <script>
+                        function confirmar(cod) {
+                            if (confirm('Você realmente deseja excluir essa linha?'))
+                                location.href = 'excluiFabricacao.php?id=' + cod;
+                        }
+                    </script>
+
             <?php } ?>
         </tbody>
     </table>

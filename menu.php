@@ -15,9 +15,7 @@
     <title></title>
 </head>
 
-<div class="container">
 
-    <body>
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-content-center">
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="index.php"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">

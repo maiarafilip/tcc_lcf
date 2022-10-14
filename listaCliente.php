@@ -1,10 +1,14 @@
 <html>
-<?php include('conexao.php'); ?>
 
-<head></head>
+<head>
+<?php include('conexao.php'); ?>
+<?php include('menu.php'); ?>
+
+<link href="Listagem.css" rel="stylesheet">
+</head>
 
 <body>
-    <?php include('menu.php'); ?>
+    
 
     <div class="container">
 

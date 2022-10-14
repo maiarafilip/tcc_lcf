@@ -14,4 +14,7 @@ $sql = "INSERT INTO vendas (produto, cliente, hora, data, valor, quantidade, for
 mysqli_query($conn, $sql);
 
 mysqli_close($conn);
-header('Location: ./index.php');
+echo "<script>alert('Cadastrado com sucesso')</script>";
+header('Refresh: 1;url=index.php');
+
+?>

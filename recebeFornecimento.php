@@ -12,6 +12,8 @@ $sql = "INSERT INTO fornecimento (fornecedor, materiaprima, hora, data, valor)
         VALUES ('$fornecedor', '$materiaprima', '$hora', '$data', '$valor')";
 mysqli_query($conn, $sql);
 
-
 mysqli_close($conn);
-echo "cadastrado com sucesso.";
+echo "<script>alert('Cadastrado com sucesso')</script>";
+header('Refresh: 1;url=index.php');
+
+?>

@@ -24,6 +24,8 @@ mysqli_query($conn, $sql);
 
 
 mysqli_close($conn);
-header('Location: ./index.php');
+
+echo "<script>alert('Cadastrado com sucesso')</script>";
+header('Refresh: 1;url=index.php');
 
 ?>

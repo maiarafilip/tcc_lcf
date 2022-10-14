@@ -1,13 +1,27 @@
 <html>
 
-<head></head>
-
-<body>
+<head>
     <?php include('menu.php');
     include('conexao.php');
     ?>
+
+    <link href="Cadastro.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+        <div id="corfundo" class="row shadow">
+            <div class="col-sm-6">
+                <div class="form-image">
+                    <img src="imagens/fotoCadastro.png" id="imagem">
+                </div>
+            </div>
+
+<div class="col-sm-6">
     <form action="recebeFabricacao.php" method="POST">
-        <h2>Cadastro da Fabricação</h2>
+        <h2>Cadastro de Fabricação</h2>
 
         <div class="form-group">
             <label>Produto: </label>
@@ -48,8 +62,8 @@
         </div>
 
         <div class="form-group">
+            <input class="btn btn-secondary" type="submit" value="Cadastrar">
             <input class="btn btn-secondary" type="reset" value="Limpar">
-            <input class="btn btn-primary" type="submit" value="Cadastrar">
         </div>
     </form>
 </body>

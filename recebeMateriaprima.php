@@ -20,4 +20,7 @@ mysqli_query($conn, $sql);
 
 
 mysqli_close($conn);
-echo "Materia prima cadastrada com sucesso.";
+echo "<script>alert('Cadastrado com sucesso')</script>";
+header('Refresh: 1;url=index.php');
+
+?>
