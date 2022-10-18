@@ -1,6 +1,10 @@
-<html>
+<!DOCTYPE HTML>
+<html lang="pt-br">
 
 <head>
+<meta charset="UTF-8">
+<title>Listagem de Vendas</title>
+
 <?php include('conexao.php'); ?>
 <?php include('menu.php'); ?>
 
@@ -11,7 +15,7 @@
     
     <div class="container">
 
-        <h2>Listagem das Vendas</h2>
+        <h2>Listagem de Vendas</h2>
 
         <table class="table table-hover">
             <thead>

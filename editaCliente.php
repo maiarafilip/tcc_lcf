@@ -1,4 +1,6 @@
-<html>
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<meta charset="UTF-8">
 
 <?php
 include('conexao.php');

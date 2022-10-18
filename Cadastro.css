@@ -1,9 +1,13 @@
 
+.body {
+    background: #696969;
+}
+
 .container {
     width: 80%;
-    height: 90vh;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    border-radius: 30px;
 }
 
 .form-image {
@@ -12,6 +16,9 @@
     justify-content: center;
     align-items: center;
     background-color: #DCDCDC;
-    padding: 3.85rem;
+    padding: 12%;
 }
 
+#imagem {
+    
+}

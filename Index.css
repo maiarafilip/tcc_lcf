@@ -1,0 +1,12 @@
+.jumbotron {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+#demo {
+    height: 550px;
+}
+
+#logo  {
+    border-right: 100px;
+}

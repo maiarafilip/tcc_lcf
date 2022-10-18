@@ -1,17 +1,21 @@
-<html>
+<!DOCTYPE HTML>
+<html lang="pt-br">
 
 <head>
-<?php include('conexao.php'); ?>
-<?php include('menu.php'); ?>
+    <meta charset="UTF-8">
+    <title>Listagem de Matéria Prima</title>
 
-<link href="Listagem.css" rel="stylesheet">
+    <?php include('conexao.php'); ?>
+    <?php include('menu.php'); ?>
+
+    <link href="Listagem.css" rel="stylesheet">
 </head>
 
 <body>
-   
+
     <div class="container">
 
-        <h2>Listagem da materia prima</h2>
+        <h2>Listagem de Matéria Prima</h2>
 
         <table class="table table-hover">
             <thead>

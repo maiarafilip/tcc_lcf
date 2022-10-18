@@ -1,6 +1,10 @@
-<html>
+<!DOCTYPE HTML>
+<html lang="pt-br">
 
 <head>
+<meta charset="UTF-8">
+<title>Listagem de Fornecimento</title>
+
     <?php include('conexao.php'); ?>
     <?php include('menu.php'); ?>
 
@@ -11,7 +15,7 @@
 
     <div class="container">
 
-        <h2>Listagem do Fornecimento</h2>
+        <h2>Listagem de Fornecimento</h2>
 
         <table class="table table-hover">
             <thead>
