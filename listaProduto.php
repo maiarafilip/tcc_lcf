@@ -44,7 +44,7 @@
                         <td><?php echo $linha['foto'] ?></td>
                         <td><?php echo $linha['descricao'] ?></td>
                         <td><?php echo $linha['observacao'] ?></td>
-                        <td><a href="" class="btn btn-secondary">Editar</a>
+                        <td><a href="" class="btn btn-dark">Editar</a>
                             <a href="#" onclick='confirmar("<?php echo $linha[0] ?>") ' class="btn btn-danger">Excluir</a>
                         </td>
                     </tr>

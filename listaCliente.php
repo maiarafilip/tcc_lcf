@@ -48,7 +48,7 @@
                         <td><?php echo $linha['cep'] ?></td>
 
 
-                        <td><a href="editaCliente.php?codCliente=<?php echo $linha[0] ?>" class="btn btn-secondary">Editar</a>
+                        <td><a href="editaCliente.php?codCliente=<?php echo $linha[0] ?>" class="btn btn-dark">Editar</a>
                             <a href="#" onclick='confirmar("<?php echo $linha[0] ?>") ' class="btn btn-danger">Excluir</a>
 
                         </td>

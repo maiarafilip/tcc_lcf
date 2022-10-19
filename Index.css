@@ -1,12 +1,16 @@
+/* body {
+    background-color: #A9A9A9; 
+} */
+
 .jumbotron {
     background-color: #ffffff;
     width: 100%;
 }
 
-#demo {
-    height: 550px;
+h2, p {
+    text-align: center;
 }
 
-#logo  {
-    border-right: 100px;
+.carousel {
+   
 }

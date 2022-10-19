@@ -66,8 +66,8 @@
                 </div>
 
                 <div class="form-group">
-                    <input class="btn btn-secondary" type="submit" value="Cadastrar">
-                    <input class="btn btn-secondary" type="reset" value="Limpar">
+                <input class="btn btn-dark" type="submit" value="Cadastrar">
+                <input class="btn btn-danger" type="reset" value="Limpar">
                 </div>
             </form>
         </div>

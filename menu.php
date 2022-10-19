@@ -27,7 +27,7 @@
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-content-center w3-theme-d5">
     <nav class="navbar navbar-dark ">
       <a class="navbar-brand" href="#">
-      <img src="imagens/pintinho.jpg" width="40" height="30" alt="" id="">
+      <img src="imagens/logo.png" width="100" height="40" alt="" id="logo">
       </a>
     </nav> 
     <ul class="navbar-nav">

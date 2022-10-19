@@ -2,8 +2,8 @@
 <html lang="pt-br">
 
 <head>
-<meta charset="UTF-8">
-<title>Sistema LCF</title>
+  <meta charset="UTF-8">
+  <title>Sistema LCF</title>
 
   <link href="Index.css" rel="stylesheet">
 
@@ -25,10 +25,12 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-sm navbar-dark  w3-theme-d5 justify-content-center">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-content-center w3-theme-d5">
     <nav class="navbar navbar-dark">
       <a class="navbar-brand" href="#">
-        <img src="imagens/pintinho.jpg" width="40" height="30" alt="" id="logo">
+        <div class="img">
+        <img src="imagens/logo.png" width="100" height="40" alt="" id="logo">
+        </div>
       </a>
     </nav>
     <ul class="navbar-nav">
@@ -75,10 +77,10 @@
 
 
   <div class="jumbotron">
-    <h1 class="display-4">Seja Bem Vindo, Sistema Gerenciador LCF</h1>
+    <h2 class="display-4">Seja bem-vindo, Sistema Gerenciador LCF</h2>
     <hr class="my-4">
     <p class="lead">Aqui você podera gerenciar seu funcionamento, cadastrando desde o forncecimento da matéria prima,
-      até as vendas da mercadoria.</p>
+      até as vendas das mercadorias.</p>
   </div>
 
 
@@ -94,13 +96,13 @@
     <!-- The slideshow -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="imagens/pintinho.jpg" alt="Pintinho" width="00" height="500">
+        <img src="imagens/pintinho.jpg" alt="Pintinho" width="100" height="500">
       </div>
       <div class="carousel-item">
-        <img src="imagens/pintinho2.jpg" alt="Pintinho sozinho" width="1100" height="500">
+        <img src="imagens/pintinho2.jpg" alt="Pintinho sozinho" width="100" height="500">
       </div>
       <div class="carousel-item">
-        <img src="imagens/pintinho3.jpg" alt="Pintinho com o ovo" width="1100" height="500">
+        <img src="imagens/pintinho3.jpg" alt="Pintinho com o ovo" width="100" height="500">
       </div>
     </div>
 

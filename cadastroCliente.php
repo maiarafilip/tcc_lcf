@@ -21,7 +21,6 @@
             </div>
         </div>
 
-
         <div class="col-sm-6">
             <form action="recebeCliente.php" method="POST">
                 <h2>Cadastro de Cliente</h2>
@@ -46,7 +45,6 @@
                         </div>
                     </div>
                 </div>
-                <p><input type="checkbox" name="sem" checked /> Marque aqui se <i>não</i> possuir email. </p>
 
                 <h2>Endereço do Cliente</h2>
 

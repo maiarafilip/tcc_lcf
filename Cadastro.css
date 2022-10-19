@@ -1,17 +1,17 @@
 
-.body {
-    background: #696969;
+body {
+    background-color: #A9A9A9;
 }
 
 .container {
     width: 80%;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
-    border-radius: 30px;
+    border-radius: 25px;
 }
 
 .form-image {
-    width: 100%;
+    width: 112%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +19,25 @@
     padding: 12%;
 }
 
-#imagem {
-    
+/* .form-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+form {
+    width: 112%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    background-color: #ffffff;
+    padding: 5%;
+}
+
+h2 {
+    text-align: center;
+    color: #800000;
+}
+
+.btn-danger {
+    background-color: #800000;
+    color: #ffffff;
 }
