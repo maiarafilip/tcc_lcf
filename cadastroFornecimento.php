@@ -35,6 +35,8 @@
                             <input class="form-control" type="time" name="hora">
                         </div>
                     </div>
+                
+                    
                     <div class="col-sm-6">
                         <div class="form-group">
                             Data:

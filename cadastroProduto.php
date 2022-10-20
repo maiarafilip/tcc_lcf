@@ -40,7 +40,6 @@
                         </div>
                     </div>
 
-
                     <div class="col-sm-6">
                         <div class="form-group">
                             Categoria:
@@ -61,8 +60,6 @@
                             <input class="form-control" type="date" name="validade">
                         </div>
                     </div>
-
-                    <div class="col-sm-12"><p>Foto: </label><br> <input type="text" name="foto"></p></div>
 
                     <div class="col-sm-12">
                         <div class="form-group">

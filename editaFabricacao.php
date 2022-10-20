@@ -5,6 +5,8 @@
 <meta charset="UTF-8">
 <title>Edição de Fabricação</title>
 
+<link href="Edita.css" rel="stylesheet">
+
 <?php
 include('conexao.php');
 

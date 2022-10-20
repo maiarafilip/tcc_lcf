@@ -41,8 +41,6 @@
                     </div>
                 </div>
 
-                <p>Foto: </label><br><input type="text" name="foto"></p>
-
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="form-group">

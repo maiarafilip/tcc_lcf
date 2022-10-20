@@ -30,7 +30,7 @@ form {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
     background-color: #ffffff;
     border-radius: 25px;
-    padding: 5%;
+    padding: 5.5%;
 }
 
 h2 {
@@ -45,5 +45,5 @@ h2 {
 
 .btn-dark {
     color: #ffffff;
-    width: 0%;
+
 }
