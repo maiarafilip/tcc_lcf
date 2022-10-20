@@ -1,6 +1,9 @@
 <!DOCTYPE HTML>
 <html lang="pt-br">
+
+<head>
 <meta charset="UTF-8">
+<title>Edição de Cliente</title>
 
 <?php
 include('conexao.php');
@@ -25,13 +28,12 @@ $sql = "SELECT * FROM cliente WHERE id=$coduser";
 $rs = mysqli_query($conn, $sql);
 $linha = mysqli_fetch_array($rs);
 ?>
+<?php include('menu.php'); ?>
 
-<head></head>
+</head>
 
 <body>
-    <?php include('menu.php'); ?>
-
-    <h2>Edição de Cliente</h2>
+    <h3 class='p-3'>Alterar Dados</h3>
 
     <form method="POST">
         <div class="form-group">

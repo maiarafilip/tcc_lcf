@@ -38,7 +38,7 @@
                         <td><?php echo $linha['fone'] ?></td>
                         <td><?php echo $linha['material'] ?></td>
                         <td><?php echo $linha['comentarios'] ?></td>
-                        <td>Editar
+                        <td><a href="editaFornecedor.php?id=<?php echo $linha[0]?>" class="btn btn-dark">Editar</a>
                             <a href="#" onclick='confirmar("<?php echo $linha[0] ?>") ' class="btn btn-danger">Excluir</a>
                         </td>
                     </tr>

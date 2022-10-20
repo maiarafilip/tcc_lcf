@@ -1,6 +1,9 @@
 <!DOCTYPE HTML>
 <html lang="pt-br">
+
+<head>
 <meta charset="UTF-8">
+<title>Edição de vendas</title>
 
 <?php
 include('conexao.php');
@@ -18,11 +21,11 @@ if (isset($_POST['btnSalvar'])) {
 
     $sql = "UPDATE vendas SET 
                produto='$produto', 
-               hora='$hora ', 
+               hora='$hora', 
                data='$data',
-               valor='$valor' 
+               valor='$valor',
                quantidade='$quantidade',
-               formadepagamento='$pagamento' 
+               formadepagamento='$formadepagamento' 
             WHERE id='$coduser'";
 
     mysqli_query($conn, $sql); // executa a alteração no bd
@@ -36,6 +39,11 @@ $rs = mysqli_query($conn, $sql);
 $linha = mysqli_fetch_array($rs);
 ?>
 <?php include('menu.php'); ?>
+
+</head>
+
+<body>
+    
 <div class='container'>
     <h3 class='p-3'>Alterar Dados</h3>
 
@@ -56,7 +64,7 @@ $linha = mysqli_fetch_array($rs);
            Valor: <input class='form-control' type="text" name="valor" value="<?php echo $linha['valor'] ?>" />
         </div>
         <div class="form-group">
-           Quantidade: <input class='form-control' type="number" name="quantidade" value="<?php echo $linha['qauntidade'] ?>" />
+           Quantidade: <input class='form-control' type="number" name="quantidade" value="<?= $linha['quantidade'] ?>" />
         </div>
         <div class="form-group">
             Forma de Pagamento: <input class='form-control' type="text" name="formadepagamento" value="<?php echo $linha['formadepagamento'] ?>" />

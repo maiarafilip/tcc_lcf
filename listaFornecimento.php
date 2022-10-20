@@ -38,7 +38,7 @@
                         <td><?php echo $linha['hora'] ?></td>
                         <td><?php echo $linha['data'] ?></td>
                         <td><?php echo $linha['valor'] ?></td>
-                        <td>Editar
+                        <td><a href="editaFornecimento.php?id=<?php echo $linha[0]?>" class="btn btn-dark">Editar</a>
                             <a href="#" onclick='confirmar("<?php echo $linha[0] ?>") ' class="btn btn-danger">Excluir</a>
                         </td>
                     </tr>

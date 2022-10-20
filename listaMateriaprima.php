@@ -46,7 +46,7 @@
                         <td><?php echo $linha['caracteristicas'] ?></td>
                         <td><?php echo $linha['indicacoes'] ?></td>
                         <td><?php echo $linha['observacao'] ?></td>
-                        <td>Editar
+                        <td><a href="editaMateriaprima.php?id=<?php echo $linha[0]?>" class="btn btn-dark">Editar</a>
                             <a href="#" onclick='confirmar("<?php echo $linha[0] ?>") ' class="btn btn-danger">Excluir</a>
                         </td>
                     </tr>
