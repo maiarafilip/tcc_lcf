@@ -6,8 +6,8 @@ body {
 .container {
     width: 80%;
     display: flex;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
     border-radius: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
 }
 
 .form-image {
@@ -15,6 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 25px;
     background-color: #DCDCDC;
     padding: 12%;
 }
@@ -29,6 +30,7 @@ form {
     width: 112%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
     background-color: #ffffff;
+    border-radius: 25px;
     padding: 5%;
 }
 
