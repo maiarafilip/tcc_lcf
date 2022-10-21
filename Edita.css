@@ -1,0 +1,21 @@
+body {
+    background-color: #A9A9A9;
+}
+
+.container {
+    width: 100%;
+    border-radius: 25px;
+    background-color: #DCDCDC;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    padding: 1rem;
+}
+
+h3 {
+    text-align: center;
+    color: #800000;
+}
+
+.btn-danger {
+    background-color: #800000;
+    color: #ffffff;
+}
